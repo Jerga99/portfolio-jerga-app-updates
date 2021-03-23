@@ -4,3 +4,13 @@
 1. Create "about", "portfolios", "blogs", "cv" page.
 2. Make all of the pages function components
 3. Return just simple text "I am a 'blogs' page..."
+
+
+------------ GET POSTS --------------------
+1. In getInitialProps of "portfolios" page create new get request
+   with axios to endpoint: 'https://jsonplaceholder.typicode.com/posts'
+2. Get data (first 10 posts) from response and pass them to return of getInitialProps
+   so you can get them in props of the page
+3. in return of portfolios page display data of posts you just fetched
+   You can create <ul> with <li> posts where you will display {post.id}
+4. good luck (:
