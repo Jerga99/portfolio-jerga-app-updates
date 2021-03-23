@@ -1,14 +1,12 @@
-
-
 import Header from "../components/shared/Header";
 
-const Home = () => {
+const Portfolios = () => {
   return (
     <>
       <Header />
-      <h1>I am home page</h1>
+      <h1>I am portfolios page</h1>
     </>
   )
 }
 
-export default Home;
+export default Portfolios;
