@@ -1,13 +1,11 @@
 
-
-import Header from "../components/shared/Header";
+import BaseLayout from "../components/layouts/BaseLayout";
 
 const Home = () => {
   return (
-    <>
-      <Header />
+    <BaseLayout>
       <h1>I am home page</h1>
-    </>
+    </BaseLayout >
   )
 }
 
