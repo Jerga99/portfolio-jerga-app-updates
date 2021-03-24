@@ -22,3 +22,16 @@
 2. in portfolios page create a link to portfolio detail page
 3. in portfolio detail page display ID of the post you have passed when
    navigating to detail page
+
+
+------------ GET POST BY ID, PORTFOLIO --------------------
+1. In getInitialProps create new get request to axios to endpoint:
+  'https://jsonplaceholder.typicode.com/posts/:postId'
+2. Get data from response and pass them to props
+3. in functions return of portfolio display post data you fetched
+
+   <h1>{post.title}</h1>
+   <p>BODY: {post.body}</p>
+   <p>ID: {post.id}</p>
+
+4. good luck (:
