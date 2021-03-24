@@ -17,7 +17,6 @@ const Portfolio = ({portfolio}) => {
 
 Portfolio.getInitialProps = async ({query}) => {
   let post = {};
-
   try {
     const res = await axios.get(`https://jsonplaceholder.typicode.com/posts/${query.id}`);
     post = res.data;
